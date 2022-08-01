@@ -1,0 +1,24 @@
+{
+  "name": "tutorial-html-live-server",
+  "version": "1.0.0",
+  "description": "HTML を書き換えて見た目を確認したい時、何度もブラウザを手動リロードを繰り返しているとだんだん面倒になってきます。そこで HTML の保存のたびに自動ブラウザのリロードまでやってくれる Live Reload 機能を使いたくなるのですが、npm の live-server というものを使えばそれが実現できます。",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/richardimaoka/tutorial-html-live-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/richardimaoka/tutorial-html-live-server/issues"
+  },
+  "homepage": "https://github.com/richardimaoka/tutorial-html-live-server#readme",
+  "dependencies": {
+    "live-server": "^1.2.2"
+  }
+}
